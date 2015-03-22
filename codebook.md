@@ -21,30 +21,35 @@ The files included in the zip file that are used in this script are:
 
 
 ##The data set was constructed as follows: 
-Merge the training and the test sets to create one data set.
-Extract only the measurements on the mean and standard deviation for each measurement. 
-Use descriptive activity names to name the activities in the data set
-Labels the data set with descriptive variable names. 
-Create an independent tidy data set with the average of each variable for each activity and each subject.
+* Merge the training and the test sets to create one data set.
+
+* Extract only the measurements on the mean and standard deviation for each measurement. 
+
+* Use descriptive activity names to name the activities in the data set
+
+* Labels the data set with descriptive variable names. 
+
+* Create an independent tidy data set with the average of each variable for each activity and each subject.
 
 
 ##Codebook:
-*subjectId: Identifier of the subject. 
+* subjectId: Identifier of the subject. 
 
-*ActivityName: Name of the activity performed:    
+* ActivityName: Name of the activity performed:    
 
  1 WALKING
 
  2 WALKING_UPSTAIRS
 
  3 WALKING_DOWNSTAIRS
+ 
  4 SITTING
 
  5 STANDING
  
  6 LAYING
 
-*The following variables represent the mean of each of them when grouping by Activity Name and Subject Identifier in the training and test datasets.
+* The following variables represent the mean of each of them when grouping by Activity Name and Subject Identifier in the training and test datasets.
 
 tBodyAcc_mean_X tBodyAcc_mean_Y tBodyAcc_mean_Z 
 
@@ -97,7 +102,7 @@ fBodyBodyGyroMag_mean fBodyBodyGyroMag_std
 fBodyBodyGyroJerkMag_mean fBodyBodyGyroJerkMag_std
 
 
-For units and meaning of this variables please refer to the Readme file that comes with the files.
+For units and meaning of this variables please refer to the Readme file that comes with the raw files.
 
 For details of the transformation performed, please refer to the R script provided along with this codebook.
 
